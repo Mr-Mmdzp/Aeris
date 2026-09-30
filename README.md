@@ -1,16 +1,53 @@
-# React + Vite
+# 🌤️ Aeris
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Weather, beautifully simplified.
 
-Currently, two official plugins are available:
+Aeris is a modern weather web app built with React that delivers real-time weather information with a clean, minimal and premium interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🚀 **Try Aeris Online**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Experience Aeris directly in your browser:
 
-## Expanding the ESLint configuration
+👉 [Launch Aeris](https://mr-mmdzp.github.io/Aeris/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> No installation required — just open and explore.
+
+## ✨ Features
+
+- 🌍 Search for cities around the world
+- 📍 Detect your current location
+- 🌡️ Current temperature & feels-like temperature
+- 💧 Humidity information
+- 💨 Wind speed
+- 🌧️ Precipitation data
+- ☀️ Day / Night detection
+- 📅 7-day weather forecast
+- 🌐 Supports Persian & English city searches
+- ⚡ Real-time weather data
+- 📱 Clean and responsive UI
+
+## 🛠️ Built With
+
+- React
+- JavaScript
+- Vite
+- CSS
+- Open-Meteo API
+- Nominatim / OpenStreetMap
+
+## 🔄 How It Works
+
+```text
+Search City
+     ↓
+Nominatim
+     ↓
+Latitude + Longitude
+     ↓
+Open-Meteo
+     ↓
+Weather Data
+     ↓
+React UI
